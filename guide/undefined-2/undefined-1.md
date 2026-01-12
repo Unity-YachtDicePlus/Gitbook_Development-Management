@@ -1,5 +1,4 @@
 ---
-noRobotsIndex: true
 layout:
   width: wide
   title:
@@ -16,12 +15,12 @@ layout:
     visible: true
 ---
 
-# \[Pre-Production] 컨셉
+# 용어 정리
 
-기간
+<details>
 
-2026-01-08 \
-&#x20;     \~2026-01-12
-
+<summary>asda</summary>
 
 
+
+</details>

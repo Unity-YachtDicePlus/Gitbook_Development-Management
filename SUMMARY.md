@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
-
 ## 빌드 요약 <a href="#build-order" id="build-order"></a>
 
-* [\[Pre-Production\] 컨셉](build-order/pre-production.md)
+* [\[Pre-Production\] 컨셉](README.md)
 * [\[Pre-Production\] 프로토타이핑](build-order/pre-production-1.md)
 * [\[Pre-Production\] 설계](build-order/pre-production-2.md)
 * [\[Production\]](build-order/production.md)
@@ -14,7 +12,10 @@
 
 * [문서 안내](guide/undefined.md)
 * [코드 규칙](guide/undefined-1.md)
-* [Git 규칙](guide/git.md)
+* [버전 관리](guide/undefined-2/README.md)
+  * [Git Flow 전략](guide/undefined-2/git-flow.md)
+  * [협업 규칙](guide/undefined-2/undefined.md)
+  * [용어 정리](guide/undefined-2/undefined-1.md)
 
 ## 관리 <a href="#management" id="management"></a>
 

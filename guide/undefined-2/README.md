@@ -1,4 +1,5 @@
 ---
+description: git, github를 활용한 버전관리
 noRobotsIndex: true
 layout:
   width: wide
@@ -16,12 +17,6 @@ layout:
     visible: true
 ---
 
-# \[Pre-Production] 컨셉
+# 버전 관리
 
-기간
-
-2026-01-08 \
-&#x20;     \~2026-01-12
-
-
-
+설명 ㄱㄱ
