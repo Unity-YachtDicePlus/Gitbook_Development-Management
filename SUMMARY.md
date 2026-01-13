@@ -13,7 +13,7 @@
 * [문서 안내](guide/undefined.md)
 * [코드 규칙](guide/undefined-1.md)
 * [버전 관리](guide/undefined-2/README.md)
-  * [Git Flow 전략](guide/undefined-2/git-flow.md)
+  * [Github Flow 전략](guide/undefined-2/github-flow.md)
   * [협업 규칙](guide/undefined-2/undefined.md)
   * [용어 정리](guide/undefined-2/undefined-1.md)
 
