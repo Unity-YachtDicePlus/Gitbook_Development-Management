@@ -78,3 +78,24 @@ layout:
 
 </details>
 
+<details>
+
+<summary>git reset</summary>
+
+스테이징 파일 전체 취소
+
+</details>
+
+<details>
+
+<summary>git restore . &#x26;&#x26; git clean -fdx</summary>
+
+1. git status -s (현재 상태)
+2. git reset (스테이징 취소)
+3. git restore . (수정된 파일을 **마지막 커밋 상태로 덮어쓰기** (실제 삭제 효과))
+4. git clean -n (미리보기)
+5. git clean -fdx (untracked 완전 삭제)
+6. git status (최종 확인)
+
+</details>
+
