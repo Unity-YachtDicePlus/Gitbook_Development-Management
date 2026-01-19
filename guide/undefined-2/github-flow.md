@@ -80,7 +80,7 @@ layout:
 
 <details>
 
-<summary>Main 브랜치에 Pull Request를 통해 Merge한다.<br>전체 기능을 </summary>
+<summary>기능을 만들고 테스트한 후, Main 브랜치에 Pull Request를 통해 Merge한다.</summary>
 
 
 
@@ -90,9 +90,40 @@ layout:
 
 <summary>Commit 메세지는 상세하게 작성한다.</summary>
 
-메세지 작성에는 [**Conventional Commits**](https://www.conventionalcommits.org/ko/v1.0.0/#%ea%b7%9c%ea%b2%a9)을 따른다.
+#### Rules
 
-[https://haesoo9410.tistory.com/300](https://haesoo9410.tistory.com/300)
+* 메세지 작성에는 [**Conventional Commits**](https://www.conventionalcommits.org/ko/v1.0.0/#%ea%b7%9c%ea%b2%a9)을 따른다.
+* 제목과 본문을 빈 행으로 구분한다.
+* 제목은 50글자 이내로 제한한다.
+* 제목의 첫 글자는 대문자로 작성한다.
+* 제목 끝에는 마침표를 넣지 않는다.
+* 제목은 명령문으로 사용하며 과거형을 사용하지 않는다.
+* 본문의 각 행은 72글자 내로 제한한다. 72자가 넘어가면 문단을 나누는 것이 좋다.
+* 어떻게 보다는 무엇과 왜를 설명한다.
+
+
+
+#### Frame
+
+```
+type: Subject
+body
+footer(issue tracker id를 작성할 때 사용한다.) 
+```
+
+
+
+#### Type
+
+* feat: 새로운 기능과 관련된 것을 의미한다.
+* fix: 오류와 같은 것을 수정했을 때 사용한다.
+* docs: 문서와 관련하여 수정한 부분이 있을 때 사용한다.
+* style: 코드의 변화와 관련없는 포맷이나 세미콜론을 놓친 것과 같은 부분들을 의미한다.
+* refactor: 코드의 리팩토링을 의미한다.
+* test: test를 추가하거나 수정했을 때를 의미한다.
+* chore: build와 관련된 부분, 패키지 매니저 설정 등 여러가지 production code와 무관한 부분 들을 의미한다. 말 그대로 자질구레한 일들이다.
+
+
 
 | Summary(required) | 분류: 핵심 내용 요약                                                                       |
 | ----------------- | ---------------------------------------------------------------------------------- |
