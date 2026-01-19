@@ -15,66 +15,62 @@ layout:
     visible: true
 ---
 
-# 용어 정리
+# Git Commit Message 규칙
 
-<details>
+#### 규칙 작성 의도
 
-<summary>cd(change directory)</summary>
-
-* 해당경로로 디렉토리 변경
-* cd G:\dev\Github\Unity\YachtDicePlus\
-  `G:\dev\Github\Unity\YachtDicePlus` 경로로 디렉토리 변경
-
-</details>
-
-<details>
-
-<summary>git branch</summary>
-
-브랜치 목록 나열
-
-</details>
-
-<details>
-
-<summary>git checkout -b 새브랜치명</summary>
-
-* 새로운 브랜치를 생성하고 이동
-* 또는 `git switch -c 새브랜치명`
-* 새 브랜치 생성만: `git branch 새브랜치명`
-
-</details>
-
-<details>
-
-<summary>git pull</summary>
-
-원격 저장소의 데이터를 로컬 저장소에 최신화
-
-</details>
-
-<details>
-
-<summary>git add . </summary>
-
-* 모든 작업 사항을 스테이지에 추가
-* 파일명으로 추가 가능: git add README.md
-
-</details>
-
-<details>
-
-<summary>git status</summary>
-
-* 로컬 작업 공간의 상태 확인
-
-</details>
-
-<details>
-
-<summary>git commit</summary>
+* 프로젝트가 진행될수록 브랜치의 수와 커밋 횟수가 많아져 복잡해지는 상황을 감소시키기 위함
+* 이전 프로젝트에서의 미숙함으로 규칙이 제대로 이행되지 않았기 때문에 숙련도를 높이고 피드백하기 위함.
+* 충돌 발생 경우를 줄이기 위함.
+* 협업 방식을 체계적으로 구조화하는 연습을 하기 위함.
 
 
 
-</details>
+## Rules
+
+* 메세지 작성에는 [**Conventional Commits**](https://www.conventionalcommits.org/ko/v1.0.0/#%ea%b7%9c%ea%b2%a9)을 따른다.
+* 제목과 본문을 빈 행으로 구분한다.
+* 제목은 50글자 이내로 제한한다.
+* 제목의 첫 글자는 대문자로 작성한다.
+* 제목 끝에는 마침표를 넣지 않는다.
+* 제목은 명령문으로 사용하며 과거형을 사용하지 않는다.
+* 본문의 각 행은 72글자 내로 제한한다. 72자가 넘어가면 문단을 나누는 것이 좋다.
+* 어떻게 보다는 무엇과 왜를 설명한다.
+
+
+
+## Frame
+
+```
+# commit message template
+# 제목은 'type: 제목' 형태로 작성합니다.
+# 본문과 푸터는 선택 사항 입니다.
+#######제목#######
+
+#######본문#######
+
+#######푸터#######
+
+##################
+# Feat: 기능의 수정, 변경, 추가
+# Fix : 버그 수정
+# Docs : 문서 수정
+# Style : 기능에 영향이 없는 코드 스타일 변경
+# Design : 리소스 추가, 수정 관련 변경 사항
+# Test : 테스트의 추가, 수정
+# Refactor : 코드의 리팩토링
+# Settings : 프로젝트에 영향이 가능 설정의 변경
+# Chore : 그 외 자질구레한 일들
+# Remove : 파일 삭제dasda
+# Rename : 파일 이름 변경
+##################sd
+```
+
+
+
+
+
+
+
+
 
