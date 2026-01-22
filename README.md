@@ -1,27 +1,6 @@
 ---
-noRobotsIndex: true
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
+description: 문서들이 어디있는지 안내. 프로젝트가 끝나면 작성
 ---
 
-# \[Pre-Production] 컨셉
-
-기간
-
-2026-01-08 \
-&#x20;     \~2026-01-12
-
-
+# 문서 안내
 
